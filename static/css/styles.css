@@ -1,0 +1,46 @@
+body {
+	background-color: #fff;
+	font-family: verdana;
+}
+.header {
+	margin-bottom: 1%;
+	border-bottom: 1px solid #000;
+}
+.label{
+	padding: 1%;
+	text-align: center;
+	font-size: 200%;
+	color: #4f6b88;
+	letter-spacing: 1px;	
+}
+.headermenucs{
+	display: block;
+}
+.headermenucs .menu{
+	text-decoration: none;
+	color: #4f6b88;
+}
+.menu{
+	float:left;
+	display: block;
+	width: 30%;
+	text-align: center;
+	padding: 1%;
+}
+.footer {
+	background-color: #dddddd;
+	padding: 1%;
+	color: #465264;
+	text-align: center;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+/* responsive css */
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
+}
