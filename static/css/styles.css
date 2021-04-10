@@ -2,9 +2,12 @@ body {
 	background-color: #fff;
 	font-family: verdana;
 }
+* {
+  box-sizing: border-box;
+}
 .header {
 	margin-bottom: 1%;
-	border-bottom: 1px solid #000;
+	border-bottom: 1px dotted #111;
 }
 .label{
 	padding: 1%;
@@ -15,17 +18,31 @@ body {
 }
 .headermenucs{
 	display: block;
+	/*border: 1px dotted #111;*/
+	font-family: Arial;
+	font-size: 13px;
+	font-weight: bold;
+	color: #5a7877;
 }
-.headermenucs .menu{
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fff;
+}
+.headermenucs .menu a{
 	text-decoration: none;
-	color: #4f6b88;
+	color: #839e94;
+	text-align: center;
+	padding: 2%;
 }
 .menu{
 	float:left;
-	display: block;
-	width: 30%;
+	display: inline-block;
+	width: 20%;
 	text-align: center;
-	padding: 1%;
+	padding: 2%;
 }
 .footer {
 	background-color: #dddddd;
