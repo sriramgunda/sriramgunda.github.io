@@ -3,6 +3,7 @@ body {
 	background-color: #20252f;
 	font-family: 'Quicksand', sans-serif;
 	margin: 0%;
+	color: #a6a6a6;
 }
 * {
   box-sizing: border-box;
@@ -10,6 +11,10 @@ body {
 /* all links are none decorated in site*/
 a{
 	text-decoration: none;
+}
+.fas, .far{
+	color: #d19b8b;
+	font-size: 20px;
 }
 .header {
 	margin-bottom: 1%;
@@ -56,6 +61,12 @@ a{
 	border: 1px solid #3dab82;
 	font-weight: bold;
 	color: #3dab82;
+}
+.intro{
+	text-align: center;
+	padding: 1%;
+	margin: 5%;	
+	margin-top: 10%;
 }
 .footer {
 	background-color: #20252f;
