@@ -1,13 +1,15 @@
 body {
 	background-color: #fff;
 	font-family: verdana;
+	margin: 0%;
 }
 * {
   box-sizing: border-box;
 }
 .header {
 	margin-bottom: 1%;
-	border-bottom: 1px dotted #111;
+	/*border-bottom: 1px dotted #111;*/
+	background-color: #f9f9f9;
 }
 .label{
 	padding: 1%;
@@ -16,36 +18,29 @@ body {
 	color: #4f6b88;
 	letter-spacing: 1px;	
 }
-.headermenucs{
+/* top navigation bar */
+.topnav {
+	overflow: hidden;  
+}
+
+/* topnav links */
+.topnav a {
+	font-size: 14px;
+	float: left;
 	display: block;
-	/*border: 1px dotted #111;*/
-	font-family: Arial;
-	font-size: 13px;
-	font-weight: bold;
-	color: #5a7877;
-}
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #fff;
-}
-.headermenucs .menu a{
+	color: #297458;
+	text-align: center;
+	padding: 1%;
 	text-decoration: none;
-	color: #839e94;
-	text-align: center;
-	padding: 2%;
 }
-.menu{
-	float:left;
-	display: inline-block;
-	width: 20%;
-	text-align: center;
-	padding: 2%;
+
+/* Change color on hover */
+.topnav a:hover {
+	background-color: #3dab82;
+	color: #fff;
 }
 .footer {
-	background-color: #dddddd;
+	background-color: #f9f9f9;
 	padding: 1%;
 	color: #465264;
 	text-align: center;
