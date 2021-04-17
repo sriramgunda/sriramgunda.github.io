@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
 body {
 	background-color: #fff;
-	font-family: verdana;
+	font-family: 'Quicksand', sans-serif;
 	margin: 0%;
 }
 * {
@@ -10,17 +11,25 @@ body {
 	margin-bottom: 1%;
 	/*border-bottom: 1px dotted #111;*/
 	background-color: #f9f9f9;
+	overflow: hidden;
 }
 .label{
 	padding: 1%;
-	text-align: center;
+	text-align: left;
 	font-size: 200%;
-	color: #4f6b88;
-	letter-spacing: 1px;	
+	font-weight: bold;
+	color: #4aa285;
+	letter-spacing: 1px;
+	float: left;
+	margin-left: 5%;
+	width: 40%;
 }
 /* top navigation bar */
 .topnav {
-	overflow: hidden;  
+	overflow: hidden;
+	float: left;
+	margin-top: 2%;
+	width: 55%;
 }
 
 /* topnav links */
@@ -32,12 +41,14 @@ body {
 	text-align: center;
 	padding: 1%;
 	text-decoration: none;
+	width: 20%;
 }
 
 /* Change color on hover */
 .topnav a:hover {
-	background-color: #3dab82;
-	color: #fff;
+	border: 1px solid #3dab82;
+	font-weight: bold;
+	color: #3dab82;
 }
 .footer {
 	background-color: #f9f9f9;
@@ -50,9 +61,9 @@ body {
 	width: 100%;
 }
 /* responsive css */
-@media only screen and (max-width:620px) {
+@media only screen and (max-width:720px) {
   /* For mobile phones: */
-  .menu, .main, .right {
+  .header, .label, .topnav {
     width:100%;
   }
 }
