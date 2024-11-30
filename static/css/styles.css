@@ -80,6 +80,10 @@ a{
 	bottom: 0;
 	width: 100%;
 }
+/* WORK CSS */
+.work-cs{
+	padding: 1%;
+}
 /* responsive css */
 @media only screen and (max-width:720px) {
 	/* For mobile phones: */
