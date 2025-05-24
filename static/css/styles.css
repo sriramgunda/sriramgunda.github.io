@@ -36,6 +36,24 @@ a{
 .label a{
 	color: #4aa285;
 }
+.site-avatar {
+  float: left;
+  margin-right: 10px;
+  overflow: hidden;
+}
+@media screen and (max-width: 640px) {
+  .site-avatar {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+}
+.site-avatar img {
+  border-radius: 5px;
+  width: 70px;
+  height: 70px;
+}
+
 /* top navigation bar */
 .topnav {
 	overflow: hidden;
